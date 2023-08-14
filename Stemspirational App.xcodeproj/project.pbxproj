@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBE32A42A84048900BE55D5 /* Stemspirational_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE32A32A84048900BE55D5 /* Stemspirational_AppApp.swift */; };
+		BDBE32A62A84048900BE55D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE32A52A84048900BE55D5 /* ContentView.swift */; };
+		BDBE32A82A84049600BE55D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE32A72A84049600BE55D5 /* Assets.xcassets */; };
+		BDBE32AC2A84049600BE55D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBE32AB2A84049600BE55D5 /* Preview Assets.xcassets */; };
+		BDBE32B62A84049700BE55D5 /* Stemspirational_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE32B52A84049700BE55D5 /* Stemspirational_AppTests.swift */; };
+		BDBE32C02A84049700BE55D5 /* Stemspirational_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE32BF2A84049700BE55D5 /* Stemspirational_AppUITests.swift */; };
+		BDBE32C22A84049700BE55D5 /* Stemspirational_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE32C12A84049700BE55D5 /* Stemspirational_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBE32B22A84049700BE55D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBE32982A84048900BE55D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBE329F2A84048900BE55D5;
+			remoteInfo = "Stemspirational App";
+		};
+		BDBE32BC2A84049700BE55D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBE32982A84048900BE55D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBE329F2A84048900BE55D5;
+			remoteInfo = "Stemspirational App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDBE32A02A84048900BE55D5 /* Stemspirational App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stemspirational App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBE32A32A84048900BE55D5 /* Stemspirational_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stemspirational_AppApp.swift; sourceTree = "<group>"; };
+		BDBE32A52A84048900BE55D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDBE32A72A84049600BE55D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBE32A92A84049600BE55D5 /* Stemspirational_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stemspirational_App.entitlements; sourceTree = "<group>"; };
+		BDBE32AB2A84049600BE55D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDBE32B12A84049700BE55D5 /* Stemspirational AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stemspirational AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBE32B52A84049700BE55D5 /* Stemspirational_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stemspirational_AppTests.swift; sourceTree = "<group>"; };
+		BDBE32BB2A84049700BE55D5 /* Stemspirational AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stemspirational AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBE32BF2A84049700BE55D5 /* Stemspirational_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stemspirational_AppUITests.swift; sourceTree = "<group>"; };
+		BDBE32C12A84049700BE55D5 /* Stemspirational_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stemspirational_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBE329D2A84048900BE55D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE32AE2A84049700BE55D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE32B82A84049700BE55D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBE32972A84048900BE55D5 = {
+			isa = PBXGroup;
+			children = (
+				BDBE32A22A84048900BE55D5 /* Stemspirational App */,
+				BDBE32B42A84049700BE55D5 /* Stemspirational AppTests */,
+				BDBE32BE2A84049700BE55D5 /* Stemspirational AppUITests */,
+				BDBE32A12A84048900BE55D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBE32A12A84048900BE55D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE32A02A84048900BE55D5 /* Stemspirational App.app */,
+				BDBE32B12A84049700BE55D5 /* Stemspirational AppTests.xctest */,
+				BDBE32BB2A84049700BE55D5 /* Stemspirational AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBE32A22A84048900BE55D5 /* Stemspirational App */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE32A32A84048900BE55D5 /* Stemspirational_AppApp.swift */,
+				BDBE32A52A84048900BE55D5 /* ContentView.swift */,
+				BDBE32A72A84049600BE55D5 /* Assets.xcassets */,
+				BDBE32A92A84049600BE55D5 /* Stemspirational_App.entitlements */,
+				BDBE32AA2A84049600BE55D5 /* Preview Content */,
+			);
+			path = "Stemspirational App";
+			sourceTree = "<group>";
+		};
+		BDBE32AA2A84049600BE55D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE32AB2A84049600BE55D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDBE32B42A84049700BE55D5 /* Stemspirational AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE32B52A84049700BE55D5 /* Stemspirational_AppTests.swift */,
+			);
+			path = "Stemspirational AppTests";
+			sourceTree = "<group>";
+		};
+		BDBE32BE2A84049700BE55D5 /* Stemspirational AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBE32BF2A84049700BE55D5 /* Stemspirational_AppUITests.swift */,
+				BDBE32C12A84049700BE55D5 /* Stemspirational_AppUITestsLaunchTests.swift */,
+			);
+			path = "Stemspirational AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBE329F2A84048900BE55D5 /* Stemspirational App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBE32C52A84049700BE55D5 /* Build configuration list for PBXNativeTarget "Stemspirational App" */;
+			buildPhases = (
+				BDBE329C2A84048900BE55D5 /* Sources */,
+				BDBE329D2A84048900BE55D5 /* Frameworks */,
+				BDBE329E2A84048900BE55D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stemspirational App";
+			productName = "Stemspirational App";
+			productReference = BDBE32A02A84048900BE55D5 /* Stemspirational App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBE32B02A84049700BE55D5 /* Stemspirational AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBE32C82A84049700BE55D5 /* Build configuration list for PBXNativeTarget "Stemspirational AppTests" */;
+			buildPhases = (
+				BDBE32AD2A84049700BE55D5 /* Sources */,
+				BDBE32AE2A84049700BE55D5 /* Frameworks */,
+				BDBE32AF2A84049700BE55D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBE32B32A84049700BE55D5 /* PBXTargetDependency */,
+			);
+			name = "Stemspirational AppTests";
+			productName = "Stemspirational AppTests";
+			productReference = BDBE32B12A84049700BE55D5 /* Stemspirational AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDBE32BA2A84049700BE55D5 /* Stemspirational AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBE32CB2A84049700BE55D5 /* Build configuration list for PBXNativeTarget "Stemspirational AppUITests" */;
+			buildPhases = (
+				BDBE32B72A84049700BE55D5 /* Sources */,
+				BDBE32B82A84049700BE55D5 /* Frameworks */,
+				BDBE32B92A84049700BE55D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBE32BD2A84049700BE55D5 /* PBXTargetDependency */,
+			);
+			name = "Stemspirational AppUITests";
+			productName = "Stemspirational AppUITests";
+			productReference = BDBE32BB2A84049700BE55D5 /* Stemspirational AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBE32982A84048900BE55D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDBE329F2A84048900BE55D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BDBE32B02A84049700BE55D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDBE329F2A84048900BE55D5;
+					};
+					BDBE32BA2A84049700BE55D5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDBE329F2A84048900BE55D5;
+					};
+				};
+			};
+			buildConfigurationList = BDBE329B2A84048900BE55D5 /* Build configuration list for PBXProject "Stemspirational App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBE32972A84048900BE55D5;
+			productRefGroup = BDBE32A12A84048900BE55D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBE329F2A84048900BE55D5 /* Stemspirational App */,
+				BDBE32B02A84049700BE55D5 /* Stemspirational AppTests */,
+				BDBE32BA2A84049700BE55D5 /* Stemspirational AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBE329E2A84048900BE55D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE32AC2A84049600BE55D5 /* Preview Assets.xcassets in Resources */,
+				BDBE32A82A84049600BE55D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE32AF2A84049700BE55D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE32B92A84049700BE55D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBE329C2A84048900BE55D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE32A62A84048900BE55D5 /* ContentView.swift in Sources */,
+				BDBE32A42A84048900BE55D5 /* Stemspirational_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE32AD2A84049700BE55D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE32B62A84049700BE55D5 /* Stemspirational_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBE32B72A84049700BE55D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBE32C22A84049700BE55D5 /* Stemspirational_AppUITestsLaunchTests.swift in Sources */,
+				BDBE32C02A84049700BE55D5 /* Stemspirational_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBE32B32A84049700BE55D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBE329F2A84048900BE55D5 /* Stemspirational App */;
+			targetProxy = BDBE32B22A84049700BE55D5 /* PBXContainerItemProxy */;
+		};
+		BDBE32BD2A84049700BE55D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBE329F2A84048900BE55D5 /* Stemspirational App */;
+			targetProxy = BDBE32BC2A84049700BE55D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDBE32C32A84049700BE55D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBE32C42A84049700BE55D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BDBE32C62A84049700BE55D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Stemspirational App/Stemspirational_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stemspirational App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Stemspirational-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBE32C72A84049700BE55D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Stemspirational App/Stemspirational_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stemspirational App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Stemspirational-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBE32C92A84049700BE55D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Stemspirational-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stemspirational App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stemspirational App";
+			};
+			name = Debug;
+		};
+		BDBE32CA2A84049700BE55D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Stemspirational-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stemspirational App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stemspirational App";
+			};
+			name = Release;
+		};
+		BDBE32CC2A84049700BE55D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Stemspirational-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stemspirational App";
+			};
+			name = Debug;
+		};
+		BDBE32CD2A84049700BE55D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.Stemspirational-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stemspirational App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBE329B2A84048900BE55D5 /* Build configuration list for PBXProject "Stemspirational App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE32C32A84049700BE55D5 /* Debug */,
+				BDBE32C42A84049700BE55D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBE32C52A84049700BE55D5 /* Build configuration list for PBXNativeTarget "Stemspirational App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE32C62A84049700BE55D5 /* Debug */,
+				BDBE32C72A84049700BE55D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBE32C82A84049700BE55D5 /* Build configuration list for PBXNativeTarget "Stemspirational AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE32C92A84049700BE55D5 /* Debug */,
+				BDBE32CA2A84049700BE55D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBE32CB2A84049700BE55D5 /* Build configuration list for PBXNativeTarget "Stemspirational AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBE32CC2A84049700BE55D5 /* Debug */,
+				BDBE32CD2A84049700BE55D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBE32982A84048900BE55D5 /* Project object */;
+}
