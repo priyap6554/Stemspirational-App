@@ -27,7 +27,7 @@ struct ContentView: View {
                     Text("Poet of Code")
 
                 }
-                Text("Founder of the Algorthmic Justice League. Uses art and research to illuminate social implications of AI and to promote equitable and accountable technology.")
+                Text("Founder of the Algorthmic Justice League. Uses art and research to illuminate social implications of AI and to promote equitable and accountable technology. Life is good")
             }
             .background(Rectangle() .foregroundColor(.white))
             }
